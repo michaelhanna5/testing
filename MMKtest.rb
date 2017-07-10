@@ -8,4 +8,7 @@ class TestMMK < Minitest::Test
         assert_equal(1,1)
     end
 
+def test_three_returns_mined
+	assert_equal("mined", mmk[2])
 end
+

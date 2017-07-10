@@ -1,29 +1,30 @@
 def mm_array
 
 
-user_input = gets.to_i
-
-
-if user_input == 1
-	puts "minds"
+num = (1..100).to_a
+p num
 end
 
-if user_input == 2
-	puts "minds"
-end
+#	puts "minds"
+#end
 
-if user_input == 3
-	puts "mined minds"
-end
+#if num == 2
+	#puts "minds"
 
-if user_input % 3 == 0
-			puts "mined"
-		elsif user_input % 5 == 0
-			puts "minds"
-		elsif user_input % 3 & 5 == 0
-			puts "mined minds"
-		end
-	end
+#end
+
+#if num == 3
+#	puts "mined minds"
+#end
+
+#if num % 3 == 0
+#			puts "mined"
+#		elsif num % 5 == 0
+#			puts "minds"
+#		elsif num % 3 & 5 == 0
+#			puts "mined minds"
+#		end
+#	end
 
 
 

@@ -3,9 +3,10 @@ def mm_array
 
 num = (1..100).to_a
 p num
-if num[2]  == 3
-   num[2]  = "mined"
+	if num[2]  % 3
+  	 num[2] << "mined"
 
+	end
 end
 
 #	puts "minds"

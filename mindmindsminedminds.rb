@@ -1,4 +1,4 @@
-def mm_array
+puts "Pick a number fool!"
 
 
 user_input = gets.to_i
@@ -23,9 +23,6 @@ if user_input % 3 == 0
 		elsif user_input % 3 & 5 == 0
 			puts "mined minds"
 		end
-	end
+	
 
-
-
-mm_array
 
